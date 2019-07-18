@@ -110,3 +110,21 @@ body {
     width: 80%;
     margin: 0;
 }
+
+.logo-container-mobile {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.logo-container-mobile img {
+    width: 100%;
+}
+
+.social-buttons-mobile {
+    width: 40%;
+}
+
+.social-button-mobile {
+    width: 13%;
+    margin: 3%;
+}
