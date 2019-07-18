@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+body {
+    background-image: url('img/guitar-blur.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    top: 0;
+    font-size: 62.5%;
+    text-align: center;
+    color: rgb(240, 240, 210);
+}
