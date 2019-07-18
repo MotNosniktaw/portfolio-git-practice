@@ -12,3 +12,391 @@ body {
     text-align: center;
     color: rgb(240, 240, 210);
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 10rem;
+    position: relative;
+    top: 40%;
+}
+
+h1 ~ p {
+    font-size: 2.3rem;
+    position: absolute;
+    bottom: 20%;
+    margin: 0 14%;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+li {
+    padding: 5px;
+    height: 40px;
+    font-size: 1.6vw;
+}
+
+#skills-list li {
+    font-size: 1.4rem;
+}
+
+ul {
+
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240, 240, 210);
+}
+
+li a:hover {
+    font-size: 1.9vw;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+a span {
+    display: none;
+}
+
+a:hover span {
+    display: inline;
+}
+
+.left-container {
+    float: left;
+    width: 15%;
+    height: 100vh;
+    background-color: rgba(240, 200, 150, 0.25);
+    border: 1px solid rgba(64, 61, 65, 0.67);
+    position: fixed;
+    top: 0;
+}
+
+.right-container {
+    width: 85%;
+    float: right;
+}
+
+.nav-desktop {
+    height: 100%;
+    padding: 20px;
+}
+
+.nav-mobile {
+    display: none;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav-mobile-bottom {
+    display: none;
+    height: 5vh;
+    border: solid 1px rgb(50, 50, 50);
+    background-color: rgb(131, 105, 56);
+}
+
+.right-item-container {
+    width: 100%;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.right-item {
+    background-color: rgba(240, 200, 150, 0.15);
+    border: 1px solid rgb(160, 160, 160);
+    min-height: 95vh;
+    margin: 2.5vh;
+}
+
+#about-container-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.port-container {
+    overflow: auto;
+}
+
+.other-container {
+    overflow: auto;
+}
+
+.logo {
+    width: 80%;
+}
+
+.logo-container {
+    padding: 1vw;
+}
+
+.social-buttons {
+    padding: 10px;
+    font-size: 1rem;
+    color: rgb(200, 200, 200);
+    width: 100%;
+    font-size: 1.1vw;
+    position: absolute;
+    bottom: 2vh;
+    left: 0%;
+}
+
+.social-button {
+    width: 30%;
+    padding: 3%;
+}
+
+.nav-menu-mobile {
+    width: 15%;
+    padding: 0;
+}
+
+.nav-menu-mobile img {
+    width: 80%;
+    margin: 0;
+}
+
+.logo-container-mobile {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.logo-container-mobile img {
+    width: 100%;
+}
+
+.social-buttons-mobile {
+    width: 40%;
+}
+
+.social-button-mobile {
+    width: 13%;
+    margin: 3%;
+}
+
+.nav-links-mobile {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links-mobile a {
+    font-size: 1.3rem;
+    width: 33%;
+    height: 100%;
+    padding: 1vh 0;
+}
+
+.nav-links-mobile a:hover {
+    background-color: rgb(121, 95, 50);
+}
+
+#nav-check {
+    display: none;
+}
+
+#nav-check:checked ~ .nav-mobile-bottom {
+    display: block;
+}
+
+.mobile-nav-target {
+    position: absolute;
+    width:1px;
+    height: 100px;
+}
+
+.about-container {
+    margin: 0 10% 5% 10%;
+    width: 80%;
+    padding: 5px 20px;
+}
+
+.about-container p {
+    font-size: 1.4rem;
+}
+
+.port-item {
+    width: 45%;
+    margin: 2.5%;
+    padding: 2%;
+    float: left;
+    border: solid 1px rgb(60, 60, 60);
+    background-color: rgba(240, 200, 150, 0.5);
+    position: relative;
+    white-space: nowrap;
+}
+
+.port-item img {
+    width: 90%;
+    margin-top: 15px;
+}
+
+.port-item p {
+    width: 95%;
+    overflow: hidden;
+}
+
+.port-item-hidden {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 15px;
+    float: left;
+    background-color: rgba(240, 200, 150, 0.95);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(140, 140, 140);
+    display: none;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.port-item:hover .port-item-hidden {
+    display: block;
+}
+
+.port-item-hidden p {
+    margin-top: 30px;
+    font-size: 1.3vw;
+    width: 90%;
+    margin: 30px 5% 10px 5%;
+    white-space: normal;
+}
+
+.other-item {
+    width: 30%;
+    margin: 1.5%;
+    padding: 2%;
+    float: left;
+    border: solid 1px rgb(60, 60, 60);
+    background-color: rgba(240, 200, 150, 0.5);
+    position: relative;
+    white-space: nowrap;
+}
+
+.other-item img {
+    width: 90%;
+    margin-top: 15px;
+}
+
+.other-item h4 {
+    width: 96%;
+    overflow: hidden;
+}
+
+.other-item p {
+    font-size: 0.6rem;
+    width: 95%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 8rem;
+    }
+
+    h1 ~ p {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    h1 {
+        font-size: 7rem;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    h1 {
+        font-size: 6rem;
+        margin-top: 20%;
+    }
+
+    .port-item h3 {
+        font-size: 1.4rem;
+    }
+
+    .port-item p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .right-container {
+        width: 100%;
+        float: none;
+    }
+
+    .right-item {
+        min-height: 85vh;
+    }
+
+    .left-container {
+        width: 100%;
+        height: 10vh;
+        float: none;
+        position: -webkit-sticky;
+        position: sticky;
+        z-index: 100;
+        background-color: rgb(131, 105, 56);
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .about-container p {
+        font-size: 1.1rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .mobile-nav-target {
+        display: block;
+        top: -10vh;
+    }
+}
