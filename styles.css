@@ -76,3 +76,55 @@ body {
 .other-container {
     overflow: auto;
 }
+
+.logo {
+    width: 80%;
+}
+
+.logo-container {
+    padding: 1vw;
+}
+
+.social-buttons {
+    padding: 10px;
+    font-size: 1rem;
+    color: rgb(200, 200, 200);
+    width: 100%;
+    font-size: 1.1vw;
+    position: absolute;
+    bottom: 2vh;
+    left: 0%;
+}
+
+.social-button {
+    width: 30%;
+    padding: 3%;
+}
+
+.nav-menu-mobile {
+    width: 15%;
+    padding: 0;
+}
+
+.nav-menu-mobile img {
+    width: 80%;
+    margin: 0;
+}
+
+.logo-container-mobile {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.logo-container-mobile img {
+    width: 100%;
+}
+
+.social-buttons-mobile {
+    width: 40%;
+}
+
+.social-button-mobile {
+    width: 13%;
+    margin: 3%;
+}
