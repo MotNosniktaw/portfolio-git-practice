@@ -27,3 +27,21 @@ body {
     width: 85%;
     float: right;
 }
+
+.nav-desktop {
+    height: 100%;
+    padding: 20px;
+}
+
+.nav-mobile {
+    display: none;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav-mobile-bottom {
+    display: none;
+    height: 5vh;
+    border: solid 1px rgb(50, 50, 50);
+    background-color: rgb(131, 105, 56);
+}
