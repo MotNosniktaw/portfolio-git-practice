@@ -100,3 +100,13 @@ body {
     width: 30%;
     padding: 3%;
 }
+
+.nav-menu-mobile {
+    width: 15%;
+    padding: 0;
+}
+
+.nav-menu-mobile img {
+    width: 80%;
+    margin: 0;
+}
