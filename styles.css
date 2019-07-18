@@ -12,3 +12,18 @@ body {
     text-align: center;
     color: rgb(240, 240, 210);
 }
+
+.left-container {
+    float: left;
+    width: 15%;
+    height: 100vh;
+    background-color: rgba(240, 200, 150, 0.25);
+    border: 1px solid rgba(64, 61, 65, 0.67);
+    position: fixed;
+    top: 0;
+}
+
+.right-container {
+    width: 85%;
+    float: right;
+}
