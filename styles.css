@@ -220,6 +220,10 @@ a:hover span {
     display: none;
 }
 
+#nav-check:checked ~ .nav-mobile-bottom {
+    display: block;
+}
+
 .mobile-nav-target {
     position: absolute;
     width:1px;
