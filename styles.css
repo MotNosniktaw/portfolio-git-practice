@@ -198,6 +198,28 @@ a:hover span {
     margin: 3%;
 }
 
+.nav-links-mobile {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links-mobile a {
+    font-size: 1.3rem;
+    width: 33%;
+    height: 100%;
+    padding: 1vh 0;
+}
+
+.nav-links-mobile a:hover {
+    background-color: rgb(121, 95, 50);
+}
+
+#nav-check {
+    display: none;
+}
+
 .mobile-nav-target {
     position: absolute;
     width:1px;
