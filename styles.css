@@ -76,3 +76,11 @@ body {
 .other-container {
     overflow: auto;
 }
+
+.logo {
+    width: 80%;
+}
+
+.logo-container {
+    padding: 1vw;
+}
