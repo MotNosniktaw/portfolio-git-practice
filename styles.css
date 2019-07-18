@@ -45,3 +45,16 @@ body {
     border: solid 1px rgb(50, 50, 50);
     background-color: rgb(131, 105, 56);
 }
+
+.right-item-container {
+    width: 100%;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.right-item {
+    background-color: rgba(240, 200, 150, 0.15);
+    border: 1px solid rgb(160, 160, 160);
+    min-height: 95vh;
+    margin: 2.5vh;
+}
